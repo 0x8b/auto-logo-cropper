@@ -189,3 +189,6 @@ def main(args=None):
             final = final.convert("LA")
 
         final.save(f"./{args.output}/{Path(path).stem}.png")
+
+if __name__ == '__main__':
+    main()
